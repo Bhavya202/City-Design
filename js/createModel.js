@@ -16,7 +16,6 @@ AFRAME.registerComponent("createmodels", {
     var barcodeValue = model.barcode_value;
     var modelUrl = model.model_url;
     var modelName = model.model_name;
-
     var scene = document.querySelector("a-scene");
     var marker = document.createElement("a-marker");
 
